@@ -1,0 +1,153 @@
+@font-face {
+    font-family: Alexandria;
+    src: url();
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+ 
+body {
+    background: #2b39ff;
+    font-family: Alexandria;
+    /* height: 1200px; */
+}
+
+a:hover {
+    font-style: italic;
+    text-decoration: none;
+}
+a:link {
+    color: #d1ff31;
+    text-decoration: none;
+
+}
+a:visited {
+    color: #d1ff31;
+    text-decoration: none;
+
+}
+
+.header {
+    color: #d1ff31;
+    width: 1550px;
+    padding-top: 50px;
+    margin: 0 auto;
+    /* border: 2px dotted orange; */
+}
+
+.selected {
+    font-style: italic;
+  }
+
+nav {
+    float: right;
+}
+
+.menu {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    /* border: 1px dotted turquoise */
+}
+
+.home {
+    padding-left: 0px;
+}
+
+
+
+
+.btn {
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 130px;
+    text-align: center;
+    /* border: 1px solid darkcyan; */
+}
+
+.response {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin-left:20px;
+    margin-right: 20px;
+    font-size: 50px;
+    font-weight: 200;
+    border-radius: 100px;
+    border: 3px solid #d1ff31;
+    color:#d1ff31;
+    background: transparent;
+}
+
+.response:hover {
+    color: #2b39ff;
+    background: #d1ff31;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.expandDiv {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 90px;
+    margin-bottom: 150px;
+    color: white;
+    /* text-align: center; */
+}
+
+.title {
+    margin: 0 auto;
+    font-size: 25px;
+}
+
+.text {
+    margin-top: 60px;
+    text-align: left;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+img{
+    width: 500px;
+}
+
+
+
+.poster {
+    position: relative;
+    display: inline-block;
+}
+
+.text-1 {
+    width: 350px;
+    font-weight: 300;
+    line-height: 28px;
+    margin-left: 40px;
+    vertical-align: top;
+}
+
+
+
+#r1 {
+    display: none;
+}
+
+#r2 {
+    display: none;
+}
+
+#r3 {
+    display: none;
+}

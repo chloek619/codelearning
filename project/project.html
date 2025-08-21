@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="project.css">
+        <title>PROJECT</title>
+        <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="header">
+            <a href="../index.html"><div class="menu home">home</div></a>
+            <nav>
+                <a href="project.html"><div class="menu selected">project</div></a>
+                <a href="../discussion/discussion.html"><div class="menu">discussion</div></a>
+                <a href="../resource/resource.html"><div class="menu">resources</div></a>
+            </nav>
+        </div>
+
+        <div id="slideShow">
+            <ul class="slides">
+              <li><img src="../img/project1.png" alt="" onclick="doDisplay()"></li>
+              <li><img src="../img/project2.png" alt="" onclick="doDisplay2()"></li>
+              <li><img src="../img/project3.png" alt="" onclick="doDisplay3()"></li>
+            </ul>
+            <p class="controller">
+              
+              <span class="prev">&lang;</span> 
+              <span class="next">&rang;</span>
+            </p>
+          </div>
+
+
+          <div class="expand" id="cssTypeface">
+              <div class="title"><p id="title">Css Typeface</p></div>
+              <div class="content">
+                <img class="box letters" src="../img/letters.png">
+                <div class="box text">The first project was to create a typeface with only HTML and CSS.
+                    Since "coding" a typeface without using any design tools is quite limited, I tried to keep the overall shape of letters as simple as possible.
+                    <br><br>First of all, I made the weight of the typeface bold. I wanted to design a full-box typeface, so I filled the box first and then took out the empty space. This was also because I wanted to use the minimum component for designing each letter. About four to five rectangles/ovals were used to create one letter on average. For the curved part of the letters, such as counters, I gave a difference in the border radius of the inner and outer sections. You can observe this detail in some specific letters such as E and U.
+                </div>
+                
+                <div class="text2">
+                    Check out the typeface on one single HTML page --> <a class="link" href="https://dxh703kim.github.io/letters/"> TYPEFACE </a>
+                    <br><br>Webposter including this typeface(Canada's Wonderland) --> <a class="link" href="https://dxh703kim.github.io/webposter/">WEBPOSTER</a>
+                </div>
+              </div>
+          </div>
+
+
+
+          <div class="expand2" id="redesign">
+            <div class="title"><p id="title">Redesign</p></div>
+            <div class="content">
+              <img class="box letters" src="../img/logo.png">
+              <div class="box text">
+                For the second assignment, the task was to redesign an existing website. 
+                <br> <br>I chose to redesign the OCAD U website because my friends as well as I often felt the structure of it is inconvenient. The biggest inconvenience was that it is too difficult to see the important dates at a glance, so I added a calendar. I also made a new color palette and redesigned the logo as well, as I considered it should be more colorful since OCAD U is the 'art school'. 
+              </div>
+              
+              <div class="text2-1">
+                  Redesined OCAD Website --> <a class="link" href="https://webspace.ocad.ca/~daeun.kim2/GDES3091/main.html"> OCAD U </a>
+                  <br><br>Read more(Further explaination) --> <a class="link" href="https://drive.google.com/file/d/11to0sdcPfCC0rco9JL-qJZ4JB2icsnbN/view?usp=share_link">PRESENTATION</a>
+              </div>
+            </div>
+        </div>
+
+
+        <div class="expand3" id="webportfolio">
+            <div class="title1"><p id="title">Course process</p></div>
+            <div class="content">
+              <div class="text2-2">
+                  This is the final project - developing course process website.
+                  <br>All of my assignments throughout the semester are published online through this website.
+                  <br><br><br><strong>This site includes:</strong>
+                  <br>- written and visual process reflection
+                  <br>- links to resources I used throughout the semester (readings, site inspiration, etc.)
+                  <br>- reading responses
+              </div>
+            </div>
+        </div>
+
+
+          
+          <script src="project.js"></script>
+    </body>
